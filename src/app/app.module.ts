@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './Front/home/home.component';
 import { CheckoutComponent } from './Front/checkout/checkout.component';
 import { OrderHistoryComponent } from './Front/order-history/order-history.component';
-import { ClaimComponent } from './Front/claim/claim.component';
 import { NavbarComponent } from './Front/navbar/navbar.component';
 import { FooterComponent } from './Front/footer/footer.component';
 import { PurchaseOrderComponent } from './Front/purchase-order/purchase-order.component';
@@ -18,7 +17,6 @@ import { HomebbbComponent } from './Back/homebbb/homebbb.component';
 import { ForumComponent } from './Front/forum/forum.component';
 import { DiscountComponent } from './Back/discount/discount.component';
 import { PurchaseComponent } from './Back/purchase/purchase.component';
-import { ClaimbComponent } from './Back/claimb/claimb.component';
 import { DeliverybComponent } from './Back/deliveryb/deliveryb.component';
 import { RelybComponent } from './Back/relyb/relyb.component';
 import { RelysComponent } from './Back/relys/relys.component';
@@ -31,12 +29,7 @@ import { ForgotPasswordComponent } from './Front/UserFront/forgot-password/forgo
 import { SuccessComponent } from './Front/UserFront/success/success.component';
 import { ErrorComponent } from './Front/UserFront/error/error.component';
 import { HttpClientModule } from '@angular/common/http';
-import { PostComponent } from './Front/post/post.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
-import { PostDetailComponent } from './Front/post-detail/post-detail.component';
-import { IndexUserComponent } from './Front/user/index-user/index-user.component';
-import { AddUserComponent } from './Front/user/add-user/add-user.component';
-import { UpdateUserComponent } from './Front/user/update-user/update-user.component';
 import { UniversiteListComponent } from './universite-list/universite-list.component';
 
 // import { MatCardModule, MatButtonModule } from '@angular/material';
@@ -51,8 +44,6 @@ import { UniversiteListComponent } from './universite-list/universite-list.compo
     RelyComponent,
     DeliverybComponent,
     HeaderComponent,
-    ClaimComponent,
-    ClaimbComponent,
     ForumComponent,
     PurchaseComponent,
     DiscountComponent,
@@ -64,9 +55,6 @@ import { UniversiteListComponent } from './universite-list/universite-list.compo
     PurchaseOrderComponent,
     NavbarComponent,
     OrderHistoryComponent,
-    IndexUserComponent,
-    AddUserComponent,
-    UpdateUserComponent,
     CheckoutComponent,
     ForumbbComponent,
     RegisterComponent,
@@ -74,11 +62,6 @@ import { UniversiteListComponent } from './universite-list/universite-list.compo
     ForgotPasswordComponent,
     SuccessComponent,
     ErrorComponent,
-    PostComponent,
-    PostDetailComponent,
-      AddUserComponent,
-      IndexUserComponent,
-      UpdateUserComponent,
     UniversiteListComponent,
   ],
   imports: [
